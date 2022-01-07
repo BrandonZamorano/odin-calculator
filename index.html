@@ -2,10 +2,79 @@
 <html lang="en">
   <head>
     <meta charset="utf-8" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=VT323&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="./styles.css" />
     <title>Calculator</title>
   </head>
   <body>
+    <div class="container">
+      <div class="calculator">
+        <div class="calculator-display">
+          <span class="calculator-display-numbers">12345678</span>
+        </div>
+        <div class="calculator-display-chin">
+          <div class="calculator-display-chin-left">
+            <h1 class="calculator-brand">BZAM Instruments</h1>
+            <div class="calculator-solar-panel"></div>
+          </div>
+          <div class="calculator-display-chin-right">
+            <span class="calculator-model">BZ-100</span>
+          </div>
+        </div>
+        <div class="calculator-keys">
+          <div class="calculator-keys-left">
+            <div class="calculator-keys-row">
+              <button class="calculator-key calculator-key-special">±</button>
+              <button class="calculator-key calculator-key-special">√</button>
+              <button class="calculator-key calculator-key-special">%</button>
+            </div>
+            <div class="calculator-keys-row">
+              <button class="calculator-key calculator-key-special">MRC</button>
+              <button class="calculator-key calculator-key-special">M-</button>
+              <button class="calculator-key calculator-key-special">M+</button>
+            </div>
+            <div class="calculator-keys-row">
+              <button class="calculator-key">7</button>
+              <button class="calculator-key">8</button>
+              <button class="calculator-key">9</button>
+            </div>
+            <div class="calculator-keys-row">
+              <button class="calculator-key">4</button>
+              <button class="calculator-key">5</button>
+              <button class="calculator-key">6</button>
+            </div>
+            <div class="calculator-keys-row">
+              <button class="calculator-key">1</button>
+              <button class="calculator-key">2</button>
+              <button class="calculator-key">3</button>
+            </div>
+            <div class="calculator-keys-row">
+              <button class="calculator-key calculator-key-special">
+                ON/C
+              </button>
+              <button class="calculator-key">0</button>
+              <button class="calculator-key">.</button>
+            </div>
+          </div>
+          <div class="calculator-keys-right">
+            <button class="calculator-key calculator-key-special">/</button>
+            <button class="calculator-key calculator-key-special">*</button>
+            <button class="calculator-key calculator-key-special">-</button>
+            <button class="calculator-key calculator-key-special">+</button>
+            <button
+              class="calculator-key calculator-key-special operator-equals"
+            >
+              =
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
     <script src="./script.js"></script>
   </body>
 </html>
