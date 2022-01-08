@@ -190,6 +190,12 @@ body {
   background-color: tomato;
   color: white;
 }
+.calculator-key-special.disabled {
+  background-color: rgb(163, 154, 153);
+  border: none;
+  color: lightgray;
+  box-shadow: none;
+}
 
 .calculator-key-special:hover {
   background-color: hsl(19, 90%, 69%);
